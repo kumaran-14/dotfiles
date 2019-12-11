@@ -44,4 +44,51 @@ SPACESHIP_BATTERY_SHOW=always
 SPACESHIP_TIME_SHOW=true
 SPACESHIP_TIME_12HR=true
 
+PROMPT_SYMBOLS=("⛟  "
+    "‡ "
+    "» "
+    "↦ "
+    "↪ "
+    "⇉ "
+    "⇏ "
+    "⇒ "
+    "⇝ "
+    "⇶ "
+    "⇸ "
+    "∞ "
+    "∹ "
+    "∺ "
+    "∾ "
+    "≁ "
+    "≕ "
+    "≫ "
+    "⊣ "
+    "⋊ "
+    "⋗ "
+    "⋙  "
+    "★ "
+    "☣ "
+    "☯ "
+    "☸ "
+    "♚ "
+    "✒ "
+    "⏩ "
+    "⚽ "
+    "♣ "
+    "⏳ "
+    "🏠 "
+    "👽 "
+    "💰 "
+    "📷 "
+    "🔈 "
+    "🕶  "
+    "🕷  "
+    "🕸  "
+    "🚇 "
+    "🛳  "
+)
+
+SPACESHIP_CHAR_SYMBOL=${PROMPT_SYMBOLS[$[${RANDOM} % ${#PROMPT_SYMBOLS[@]}]]}
+
+
 ####################### END SPACESHIP PROMPT ##################################################

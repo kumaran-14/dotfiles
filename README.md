@@ -25,7 +25,7 @@ There are five basic starup files which get sourced whenever a new shell is inst
 
 #### How I manage my dotfiles?
 Simple, using git. I have git repository, ```~/.dotfiles```. I set a simple alias, ```dot``` (which is similar to ```git```), to maintain my git repository. Why? you may ask. Because it's way more fun :wink:
-All necessary files will be symlinked to ```$HOME```
+. All necessary files will be symlinked to ```$HOME```
 ```bash
 echo "alias dot='/usr/bin/git'"" >> $HOME/.zshrc
 ```
