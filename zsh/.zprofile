@@ -46,6 +46,7 @@ path=(
   /usr/local/{bin,sbin}
   $path
   /home/kumaran/.gem/ruby/2.6.0/bin
+  /home/kumaran/.dotfiles/.local/bin
 )
 
 #
