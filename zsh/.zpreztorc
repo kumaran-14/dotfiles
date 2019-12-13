@@ -17,7 +17,7 @@
 zstyle ':prezto:*:*' color 'yes'
 
 # Add additional directories to load prezto modules from
-#zstyle ':prezto:load' pmodule-dirs $HOME/.zprezto-contrib
+zstyle ':prezto:load' pmodule-dirs $DOTDIR/.zprezto-contrib
 
 # Set the Zsh modules to load (man zshmodules).
 # zstyle ':prezto:load' zmodule 'attr' 'stat'
@@ -36,8 +36,15 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'prompt'
-
+  'thefuck' \
+  'archive' \
+  'pacman' \
+  'node' \
+  'syntax-highlighting' \
+  'history-substring-search' \
+  'ssh' \
+  'prompt' \
+  'autosuggestions'
 #
 # Autosuggestions
 #
@@ -105,7 +112,7 @@ zstyle ':prezto:module:history-substring-search' globbing-flags ''
 #
 
 # Set the Pacman frontend.
-# zstyle ':prezto:module:pacman' frontend 'yaourt'
+zstyle ':prezto:module:pacman' frontend 'yay'
 
 #
 # Prompt
