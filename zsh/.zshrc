@@ -10,8 +10,13 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+# Kumaran's custom config.
 
+############################ IMPORTANT ########################
+
+# Enviroment variables needed for .zshrc to function properly are defined in .zshenv (for eg: $DOTDIR)
+# sourcing .zshenv is a required dependency for .zshrc . The shell automatically sources .zshenv. Look at README.md for more info
+# Do not delete existing variables in .zshenv . It will break your shell.
 
 #################### SOURCE ALL "*.zsh" files #########################
 
