@@ -1,6 +1,7 @@
 ############################ SYSTEM WIDE ALIASES ##############################
 
-alias reload='. ~/.zshrc'
+# parse error on reload in zsh/plugin/k/init.zsh
+alias reload='unalias k && . ~/.zshrc'
 
 # Good 'ol Clear Screen command
 alias cls='clear' 
