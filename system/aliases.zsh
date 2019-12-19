@@ -10,4 +10,13 @@ alias cls='clear'
 alias cat='bat'
 
 # Preview files
-alias v="fzf --preview-window=wrap --preview 'bat --style=numbers --theme='OneHalfDark' --color=always {}' --height=70%"
+
+
+
+alias v="fzf --preview-window=wrap --preview 'bat --style=numbers --theme='OneHalfDark' --color=always {}' --height=7
+5%"
+
+# Typos
+alias ehco='echo'
+alias relaod='reload'
+alias pyhton='python'

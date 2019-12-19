@@ -83,7 +83,7 @@ $FZF_DEFAULT_OPTS
 --bind='ctrl-s:toggle-sort'
 --bind='?:toggle-preview'
 --bind='alt-w:toggle-preview-wrap'
---preview-window='right:60%'
+--preview-window='right:70%'
 $FORGIT_FZF_DEFAULT_OPTS
 "
 
