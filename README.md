@@ -1,5 +1,9 @@
 # Kumaran's DOTFILES and Terminal Setup
 
+<p align="center">
+  <img width="600" src="./assets/svg/demo.svg">
+</p>
+
 ### ZSH using Prezto configuration 
 
 #### Breakdown of zsh dotfiles
