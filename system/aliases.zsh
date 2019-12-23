@@ -13,8 +13,7 @@ alias cat='bat'
 
 
 
-alias v="fzf --preview-window=wrap --preview 'bat --style=numbers --theme='OneHalfDark' --color=always {}' --height=7
-5%"
+alias v="fzf --preview-window=wrap --preview 'bat --style=numbers --theme='OneHalfDark' --color=always {}' --height=75%"
 
 # Typos
 alias ehco='echo'
