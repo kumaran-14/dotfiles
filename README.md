@@ -1,8 +1,9 @@
 # Kumaran's DOTFILES and Terminal Setup
 
 <p align="center">
-  <img width="600" src="./assets/svg/demo.svg">
+<a href="https://asciinema.org/a/niycA8U7FqciflhJSjx3B7xIJ" target="_blank"><img src="https://asciinema.org/a/niycA8U7FqciflhJSjx3B7xIJ.svg" /></a>
 </p>
+
 
 ### ZSH using Prezto configuration 
 
