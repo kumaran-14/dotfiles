@@ -4,6 +4,7 @@
 <a href="https://asciinema.org/a/niycA8U7FqciflhJSjx3B7xIJ" target="_blank"><img src="https://asciinema.org/a/niycA8U7FqciflhJSjx3B7xIJ.svg" /></a>
 </p>
 
+> OS=Linux SHELL=zsh TERM=xterm-256color
 
 ### ZSH using Prezto configuration 
 
@@ -46,7 +47,7 @@ Why? Because symlinking is a tedious process and it's way more easier to add ```
 
  #### Spaceship prompt, using nodejs package, edited .zhrc to configure prompt.
 
-#### Packages installed through AUR (pacman and yay)
+### Packages installed through AUR (pacman and yay)
 > bat, and so on.
 
 ### Other Packages
@@ -55,6 +56,13 @@ Why? Because symlinking is a tedious process and it's way more easier to add ```
 
 ### Packages setup manually (git)
 > some random git repo.
+
+### GRUB SCREEN
+
+<p align="center">
+	<img width=600 src="./assets/grub-screenshot.jpeg"/>
+</p>
+
 
 ### Inspiration
 [Holman's dotfiles](https://github.com/holman/dotfiles) were so elegant, it made me create my own. 
