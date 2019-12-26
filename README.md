@@ -60,7 +60,7 @@ Why? Because symlinking is a tedious process and it's way more easier to add ```
 ### GRUB SCREEN
 
 <p align="center">
-	<img width=600 src="./assets/grub-screenshot.jpeg"/>
+	<img src="./assets/grub-screenshot.png"/>
 </p>
 
 
