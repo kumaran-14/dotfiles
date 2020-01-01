@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Show what files are being ignored in the repo
+
+exec git ls-files --others --i --exclude-standard

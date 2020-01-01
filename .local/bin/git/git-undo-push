@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#
+# Undo your last push to branch ($1) of origin
+
+exec git push -f origin HEAD^:$1

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#
+# Copyright 2014 Joe Block <jpb@unixorn.net>
+#
+# This script is released under the Apache 2.0 license
+#
+# I got tired of accidentally typing `git git foo` and git not realizing I
+# meant to just do `git foo`
+
+if [[ "$1" == 'git' ]]; then
+  shift # chop off the extra git
+  # shellcheck disable=SC2068
+  exec git $@
+fi
