@@ -30,12 +30,9 @@ There are five basic starup files which get sourced whenever a new shell is inst
     6. ```~/.zlogout``` - Only for login shells
 
 #### How I manage my dotfiles?
-Simple, using git. I have git repository, ```~/.dotfiles```. I set a simple alias, ```dot``` (which is similar to ```git```), to maintain my git repository. Why? you may ask. Because it's way more fun :wink:
-. All necessary files will be symlinked to ```$HOME```
-```bash
-echo "alias dot='/usr/bin/git'"" >> $HOME/.zshrc
-```
-That's it. It's simple and effective. No bloated dotfile manager needed.
+Simple, using git. I have git repository, ```~/.dotfiles```.
+All necessary files should be symlinked to ```$HOME```
+In the near future, the files will be renamed to ```filename.symlink```, and a new ```init.sh``` script will be created which will recursively symlink the files.
 
 #### My filesystem
 I tweaked [XDG](https://wiki.archlinux.org/index.php/XDG_Base_Directory) base directory specification to suit my needs.
@@ -65,7 +62,4 @@ Why? Because symlinking is a tedious process and it's way more easier to add ```
 
 
 ### Inspiration
-[Holman's dotfiles](https://github.com/holman/dotfiles) were so elegant, it made me create my own. 
-
-
-
+[Holman's dotfiles.](https://github.com/holman/dotfiles)
