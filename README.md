@@ -42,19 +42,19 @@ I tweaked [XDG](https://wiki.archlinux.org/index.php/XDG_Base_Directory) base di
 
 Why? Because symlinking is a tedious process and it's way more easier to add ```$HOME/.dotfiles/local/bin``` to ```$PATH```
 
- #### Spaceship prompt, using nodejs package, edited .zhrc to configure prompt.
 
-### Packages installed through AUR (pacman and yay)
-> bat, and so on.
+#### Prompt
 
-### Other Packages
-> mdless (ruby package),
+Spaceship prompt, using nodejs package.
+Have a look at `zsh/prompt.zsh` for prompt configuration
 
+#### Packages installed through AUR (pacman and yay)
+> [386 packages](./assets/pacman-packages-list.txt)
 
-### Packages setup manually (git)
-> some random git repo.
+#### Packages installed through PIP
+> [81 packages](./assets/pip-packages-list.txt)
 
-### GRUB SCREEN
+#### Grub Screen
 
 <p align="center">
 	<img src="./assets/grub-screenshot.png"/>
