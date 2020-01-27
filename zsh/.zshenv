@@ -13,3 +13,5 @@ fi
 
 ######################### IMPORTANT Environment variable ######################
 export DOTDIR=~/.dotfiles
+export TERMINFO=/usr/lib/terminfo
+
