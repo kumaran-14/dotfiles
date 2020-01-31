@@ -1,0 +1,5 @@
+# List what drivers have been installed 
+inxi -G
+
+# list driver package name
+mhwd -li
