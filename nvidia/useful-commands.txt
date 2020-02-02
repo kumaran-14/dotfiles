@@ -3,3 +3,6 @@ inxi -G
 
 # list driver package name
 mhwd -li
+
+#show driver version installed
+cat /proc/driver/nvidia/version
