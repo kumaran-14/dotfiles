@@ -1,3 +1,7 @@
 ####################### edit file '/etc/sudoers' #############
 Add this to end of defaults section, without quotes
 `Defaults insults`
+
+###################### Some useful tips ####################
+# use \<command> to temporarily unalias the command for that execution alone
+# For example `\ls`, `\pacman`

@@ -1,21 +1,30 @@
 ############################ SYSTEM WIDE ALIASES ##############################
 
-# parse error on reload in zsh/plugin/k/init.zsh
+#### parse error on reload in zsh/plugin/k/init.zsh
 alias reload='unalias k && . ~/.zshrc && echo "ZSH Config Reloaded!"'
 
-# Good 'ol Clear Screen command
+#### Good 'ol Clear Screen command
 alias cls='clear' 
 
-# Cat to Bat
+#### Cat to Bat
 alias cat='bat'
 
-# Preview files
+#### Preview files
 alias v="fzf --preview-window=wrap --preview 'bat --style=numbers --theme='OneHalfDark' --color=always {}' --height=75%"
 
-# Typos
+#### Resume wget by default
+alias wget='wget -c'
+
+#### Start precision calculator with math support
+alias math='bc -l'
+alias calc='bc -l'
+
+#### Typos
 alias ehco='echo'
 alias relaod='reload'
 alias pyhton='python'
+alias got='git'
+alias gut='git'
 
-#navigate to dotfiles repo
+#### Navigate to dotfiles repo
 alias dot='cd $DOTDIR'

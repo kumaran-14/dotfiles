@@ -1,0 +1,5 @@
+channels:
+  - defaults
+  - bokeh
+  - conda-forge
+auto_activate_base: false
