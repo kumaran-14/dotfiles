@@ -28,3 +28,4 @@ alias gut='git'
 
 #### Navigate to dotfiles repo
 alias dot='cd $DOTDIR'
+
