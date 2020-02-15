@@ -29,3 +29,6 @@ alias gut='git'
 #### Navigate to dotfiles repo
 alias dot='cd $DOTDIR'
 
+#### List all files with full path
+alias lff='find "$(pwd)" -type f'
+alias lfd='find "$(pwd)" -type d'

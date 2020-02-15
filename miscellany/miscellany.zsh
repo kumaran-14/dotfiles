@@ -3,7 +3,8 @@
 ######### Some games to play when the going gets tough
 
 ##### QSNAKE game from utility-git-source
-
-
-PATH="/home/kumaran/utiliy-git-source/quick-snake/:$PATH"
+##### In ~/utiliy-git-source/quick-snake
+##### Now executable qsnake is in $DOTDIR/.local/bin/
 alias snake='qsnake'
+
+##### tdlr in $DOTDIR/./local/bin/
