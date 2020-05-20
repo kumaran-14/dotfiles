@@ -12,3 +12,5 @@ alias git-cdroot='cd $(git rev-parse --show-toplevel) && echo "$_"'
 
 #More aliases
 alias gs='git status'
+alias gst='git stash'
+alias gsta='git stash apply'
