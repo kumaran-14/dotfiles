@@ -65,3 +65,7 @@ export LESS='-F -g -i -M -R -S -w -z-4'
 if (( $#commands[(i)lesspipe(|.sh)] )); then
   export LESSOPEN="| /usr/bin/env $commands[(i)lesspipe(|.sh)] %s 2>&-"
 fi
+
+
+# Added by `rbenv init` on Mon Aug 26 10:13:55 AM IST 2024
+eval "$(~/.rbenv/bin/rbenv init - --no-rehash zsh)"

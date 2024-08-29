@@ -37,7 +37,6 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'git' \
-  'thefuck' \
   'archive' \
   'tmux'  \
   'pacman' \

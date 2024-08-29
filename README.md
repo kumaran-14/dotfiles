@@ -43,6 +43,20 @@ I tweaked [XDG](https://wiki.archlinux.org/index.php/XDG_Base_Directory) base di
 Why? Because symlinking is a tedious process and it's way more easier to add ```$HOME/.dotfiles/local/bin``` to ```$PATH```
 
 
+##### Filesystem Partition
+
+1. /home is in different partition
+2. / is in different partition
+
+use these commands to free up space in root partition
+
+```pacman -Qdtq | pacman -Rns -```
+
+See this https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Removing_unused_packages_(orphans) and this https://wiki.archlinux.org/title/Pacman#Cleaning_the_package_cache
+
+
+sometimes / in filelight shows different from what df -h or dolphin shows for the /dev/nvme1n1p3 disk partition, however, it can be due to deleted file having open file descriptors which says disk is used. Often, it is due to docker process. run ```docker system prune -a``` to free up space. Note: Filelight always shows correct usage. Go by that.
+
 #### Prompt
 
 Spaceship prompt, using nodejs package.

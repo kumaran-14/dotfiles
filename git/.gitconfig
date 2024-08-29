@@ -5,3 +5,7 @@
 	pager = delta --dark --highlight-removed --commit-style box --file-style box --theme='Monokai Extended' --plus-color="#0c5246" --plus-emph-color="#033f85" --minus-color="#6e2e13" --minus-emph-color="#870375"
 [credential]
 	helper = cache --timeout 72000
+
+
+[includeIf "gitdir:~/work/"]
+    path = ~/work/.gitconfig
