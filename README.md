@@ -68,11 +68,41 @@ Have a look at `zsh/prompt.zsh` for prompt configuration
 #### Packages installed through PIP
 > [81 packages](./assets/pip-packages-list.txt)
 
+
+#### Vim
+
+Vim like bindings in chrome using vim extension, ideavim in Idea products (Clion) and vscodevim in vscode
+
+~/.vimrc is symlinked, and vim plugins are installed through vim-plug in ~/.vim/plugged
+
+#### Vscode
+use intellij shortcuts via extension
+
+
+
+#### Display
+Know that in your and most laptop with integrated graphics (Intel) and dedicated graphics card, the HDMI is directly connected to the graphics card. So you need the graphics card to be active if you want to connect to a external monitor
+
+#### Nvidia
+Easier to use mhwd to manage drivers than following arch wiki.
+Had trouble with open source drivers to connect to external display, installed official proprietary drivers.
+
+backup files for x11 config is in /etc/X11/xorg.conf.backup
+actual config is in /etc/X11/xorg.conf.backup
+
+note: i have manually backed up files in ~/.dotfiles/x11/
+
+
+
+
 #### Grub Screen
 
 <p align="center">
 	<img src="./assets/grub-screenshot.png"/>
 </p>
+
+
+
 
 
 ### Inspiration
