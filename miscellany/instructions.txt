@@ -5,3 +5,5 @@ Add this to end of defaults section, without quotes
 ###################### Some useful tips ####################
 # use \<command> to temporarily unalias the command for that execution alone
 # For example `\ls`, `\pacman`
+# use the command word to do the same
+# for example `command cat file.txt`

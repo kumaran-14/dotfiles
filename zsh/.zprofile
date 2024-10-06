@@ -18,7 +18,7 @@ fi
 #
 
 export EDITOR='vim'
-export VISUAL='nano'
+export VISUAL='vim'
 export PAGER='less'
 
 #
@@ -69,3 +69,4 @@ fi
 
 # Added by `rbenv init` on Mon Aug 26 10:13:55 AM IST 2024
 eval "$(~/.rbenv/bin/rbenv init - --no-rehash zsh)"
+set -o vi

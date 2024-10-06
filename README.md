@@ -93,6 +93,13 @@ actual config is in /etc/X11/xorg.conf.backup
 note: i have manually backed up files in ~/.dotfiles/x11/
 
 
+#### Readline vi mode
+Enabled by adding `set -o vi` in .zprofile
+use ESC to trigger command mode to edit commands inline
+use Ctrl-x followed by ctrl-e to open command in $VISUAL editor and edit and execute
+checkout https://stackoverflow.com/questions/22655587/how-to-use-vi-to-edit-a-command-in-terminal-on-linux
+
+
 
 
 #### Grub Screen
