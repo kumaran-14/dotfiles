@@ -42,3 +42,8 @@ set ideajoin
 set clipboard+=unnamed
 set clipboard+=ideaput
 set idearefactormode=keep
+
+
+" all remaps
+nnoremap g; :action JumpToLastChange<Enter>
+nnoremap g, :action JumpToNextChange<Enter>
