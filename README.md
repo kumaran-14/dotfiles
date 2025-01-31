@@ -42,7 +42,12 @@ I tweaked [XDG](https://wiki.archlinux.org/index.php/XDG_Base_Directory) base di
 
 Why? Because symlinking is a tedious process and it's way more easier to add ```$HOME/.dotfiles/local/bin``` to ```$PATH```
 
-
+##### Monitor
+To view external screen only
+1. generate config file using command
+2. place it in  /etc/X11/xorg.conf
+To view laptop screen only
+1. backup and then delete  /etc/X11/xorg.conf
 ##### Filesystem Partition
 
 1. /home is in different partition

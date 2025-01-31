@@ -32,7 +32,7 @@ cnoremap kj <C-C>
 " https://vim.fandom.com/wiki/Moving_lines_up_or_down#Mappings_to_move_lines
 
 " ######################### set options
-
+set nrformats=
 set title
 set autoindent
 set smartindent
@@ -132,6 +132,24 @@ let &undodir=s:undodir
 set undofile
 
 let mapleader = ","
-
+" https://vi.stackexchange.com/questions/36911/use-comma-as-leader-but-keep-commas-original-functionality-as-leader-i-e
 " repeat f or t in reverse
 nnoremap <leader>, ,
+
+" for jumping up and down with wrapped lines including count
+" https://stackoverflow.com/questions/20975928/moving-the-cursor-through-long-soft-wrapped-lines-in-vim
+nnoremap <expr> j v:count ? 'j' : 'gj'
+nnoremap <expr> k v:count ? 'k' : 'gk'
+
+
+" for c++ programming, insert semicolon at end of line when pressing ;;
+inoremap ;; <C-o>A;
+
+" go to end of line and beginning of line while in insert mode
+" https://stackoverflow.com/questions/6545078/move-to-the-beginning-of-line-while-in-insert-mode
+inoremap <C-e> <Esc>A
+inoremap <C-a> <Esc>I
+
+
+
+
