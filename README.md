@@ -48,7 +48,13 @@ To view external screen only
 2. place it in  /etc/X11/xorg.conf
 To view laptop screen only
 1. backup and then delete  /etc/X11/xorg.conf
+
+See more info in the Display section below
+
+
+
 ##### Filesystem Partition
+
 
 1. /home is in different partition
 2. / is in different partition
@@ -104,6 +110,15 @@ use ESC to trigger command mode to edit commands inline
 use Ctrl-x followed by ctrl-e to open command in $VISUAL editor and edit and execute
 checkout https://stackoverflow.com/questions/22655587/how-to-use-vi-to-edit-a-command-in-terminal-on-linux
 
+#### SSH
+
+If you see permission denied public key when pushing to kumaran-14 github account repos, do the following
+
+ssh-add ~/.ssh/id_ed25519_github_aug_2024 
+ssh -T git@github.com
+
+if final step did not work, execute this
+ssh -T kumaran-14@github.com
 
 
 
