@@ -12,3 +12,9 @@ alt + k = swap up
 
 ## vscodevim settings in 
 ~/.config/Code/User/settings.json
+
+
+## ideavim
+ctrl + e = go to end of line in insert mode, same as A
+ctrl + h = backspace while in insert  mode
+atl + ; = move right while in insert mode

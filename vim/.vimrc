@@ -9,10 +9,11 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'machakann/vim-highlightedyank'
 Plug 'michaeljsmith/vim-indent-object'
+Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'tommcdo/vim-exchange'
-
+Plug 'kana/vim-textobj-entire'
 call plug#end()
 
 filetype plugin indent on
@@ -150,6 +151,19 @@ inoremap ;; <C-o>A;
 inoremap <C-e> <Esc>A
 inoremap <C-a> <Esc>I
 
+" for beginning and end
+noremap H ^
+noremap L $
 
-
-
+" #https://vi.stackexchange.com/questions/36217/append-inside-brackets-quotes-double-quotes
+nnoremap <LEADER>ci" ci"<C-r>"<space>
+nnoremap <LEADER>ci' ci'<C-r>"<space>
+nnoremap <LEADER>ci( ci(<C-r>"<space>
+nnoremap <LEADER>ci) ci)<C-r>"<space>
+nnoremap <LEADER>ci{ ci{<C-r>"<space>
+nnoremap <LEADER>ci} ci}<C-r>"<space>
+nnoremap <LEADER>ci[ ci[<C-r>"<space>
+nnoremap <LEADER>ci] ci]<C-r>"<space>
+nnoremap <LEADER>ci< ci<<C-r>"<space>
+nnoremap <LEADER>ci> ci><C-r>"<space>
+nnoremap <LEADER>ci` ci`<C-r>"<space>
