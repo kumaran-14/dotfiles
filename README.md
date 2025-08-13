@@ -120,6 +120,11 @@ ssh -T git@github.com
 if final step did not work, execute this
 ssh -T kumaran-14@github.com
 
+#### Windows & Manjaro Dual Boot
+Press f2 for acer bios settings, bios passworrd is in bitwarden
+1. Disable secure boot
+2. in boot priority order, choose EFI first and windows boot loader second, this allows your grub to pop up and choose which os to boot into
+3. if you get WINDOWS BLUE SCREEN OF DEATH (BSOD), with inaccessible boot error, then choose VHCI as the disk driver 
 
 
 #### Grub Screen
