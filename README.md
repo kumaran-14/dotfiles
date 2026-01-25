@@ -49,7 +49,7 @@ To view external screen only
 To view laptop screen only
 1. backup and then delete  /etc/X11/xorg.conf
 ```
-sudo mv /etc/X11/xorg.conf /etc/X11/xorg.conf.backup__2025_july_21                                                                                                                                                 01:48:25 PM •10
+sudo mv /etc/X11/xorg.conf /etc/X11/xorg.conf.backup__2025_july_21
 sudo mv /etc/X11/xorg.conf.backup__2025_july_21 /etc/X11/xorg.conf
 ```
 See more info in the Display section below

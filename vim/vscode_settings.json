@@ -1,0 +1,82 @@
+{
+    "workbench.icontheme": "vscode-icons",
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.filehistory.location": "scm",
+    "gitlens.views.linehistory.location": "scm",
+    "gitlens.views.compare.location": "scm",
+    "gitlens.views.search.location": "scm",
+    "files.insertfinalnewline": true,
+    "window.zoomlevel": 0,
+    "workbench.colortheme": "atom one dark",
+    "editor.formatontype": true,
+    "editor.fontfamily": "go mono, 'droid sans mono', 'monospace', monospace, 'droid sans fallback'",
+    "vim.camelcasemotion.enable": true,
+    "vim.cursorstylepermode.normal": "block",
+    "vim.easymotion": true,
+    "vim.foldfix": true,
+    "vim.highlightedyank.enable": true,
+    "vim.sneak": true,
+    "vim.sneakreplacesf": true,
+    "vim.sneakuseignorecaseandsmartcase": true,
+    "vim.usesystemclipboard": true,
+    "vim.vimrc.path": "$HOME/.vimrc",
+    "[cpp]": {
+        "editor.defaultformatter": "xaver.clang-format"
+    },
+    "editor.mousewheelzoom": true,
+    "terminal.explorerkind": "external",
+    "workbench.panel.defaultlocation": "right",
+    "terminal.integrated.cursorblinking": true,
+    "terminal.integrated.cursorstyle": "line",
+    "[typescript]": {
+        "editor.defaultformatter": "vscode.typescript-language-features"
+    },
+    "javascript.updateimportsonfilemove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultformatter": "ms-vsliveshare.vsliveshare"
+    },
+    "files.autosave": "afterdelay",
+    "bracketpaircolorizer.depreciation-notice": false,
+    "files.associations": {
+        "*.tex": "latex"
+    },
+    "latex-workshop.view.pdf.viewer": "tab",
+    "[json]": {
+        "editor.defaultformatter": "vscode.json-language-features",
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.defaultinterpreterpath": "/home/kumaran/.pyenv/versions/3.10.12/bin/python3",
+    "python.testing.pytestpath": "/home/kumaran/gdev/tamu/sem1/606/cli/autograder_venv/bin/pytest",
+    "python.venvfolders": [
+        "/home/kumaran/gdev/tamu/sem1/606/cli/"
+    ],
+    "remote.tunnels.access.preventsleep": true,
+    "liveserver.settings.donotshowinfomsg": true,
+    "editor.formatonsave": true,
+    "[css]": {
+        "editor.defaultformatter": "vscode.css-language-features"
+    },
+    "vim.vimrc.enable": true,
+    "vim.statusbarcolorcontrol": true,
+    "workbench.colorcustomizations": {
+        "statusbar.background": "#5f00af",
+        "statusbar.nofolderbackground": "#5f00af",
+        "statusbar.debuggingbackground": "#5f00af",
+        "statusbar.foreground": "#ffffff",
+        "statusbar.debuggingforeground": "#ffffff"
+    },
+    "editor.cursorstyle": "block",
+    "vim.cursorstylepermode.insert": "line",
+    "window.customtitlebarvisibility": "auto",
+    "editor.linenumbers": "relative",
+    "workbench.colorTheme": "Atom One Dark",
+    "files.autoSave": "afterDelay",
+    "vim.useSystemClipboard": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ]
+
+
+
+}

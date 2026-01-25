@@ -1,6 +1,5 @@
 #### Other Idea Shortcuts
 
-alt + ; to move to right while in insert mode
 
 # swap: works with both clion and vanilla vim
 ctrl + shift + uparrow = swap current line with above line
@@ -16,5 +15,10 @@ alt + k = swap up
 
 ## ideavim
 ctrl + e = go to end of line in insert mode, same as A
+ctrl + A = go to start of line in insert mode
 ctrl + h = backspace while in insert  mode
 atl + ; = move right while in insert mode
+
+g; to go to last edit, i.e vim changelist
+g, to go next in vim change list
+

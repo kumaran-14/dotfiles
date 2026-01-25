@@ -167,3 +167,8 @@ nnoremap <LEADER>ci] ci]<C-r>"<space>
 nnoremap <LEADER>ci< ci<<C-r>"<space>
 nnoremap <LEADER>ci> ci><C-r>"<space>
 nnoremap <LEADER>ci` ci`<C-r>"<space>
+
+
+" https://www.joshmorony.com/totw/28/  
+" for incrementally increasing numbers
+
